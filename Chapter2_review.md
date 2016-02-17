@@ -4,7 +4,7 @@ Course: 5143 Operating Systems
 Date: 17 Feb 2016
 
 
-## What are three objectives of an OS design?
+## 1.What are three objectives of an OS design?
 **The three main objectives of an OS design are:**
 
 1. _Convenience_: An operating system should make the computer more convienient to use.
