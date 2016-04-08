@@ -36,7 +36,7 @@ ans)In thread4.py the bizarre behavior of both the threads is a lock has been ca
 
 
 
-6ans)In thread4.py the bizarre behavior of both the threads is a lock has been called on a shared resource and none among the threads are calling acquire() method to access the resource .so anyone among the threads can use the shared resource.
+
 
           global sharedNumber
         for k in range(10000000):
@@ -47,7 +47,7 @@ ans)In thread4.py the bizarre behavior of both the threads is a lock has been ca
             
         print ("Goodbye from thread A")
 
-6)Does uncommenting the lock operations clear up the problem in question 5?
+#####6)Does uncommenting the lock operations clear up the problem in question 5?
 ans)The problem in question5 can be overcomed by using synchronism of two threads to ensure they execute in the order specified,  if we use lock.acquire()method for a specific thread then that particular thread access the resource and uses it,after its usage if we call release() so that any other thread can access the same source if needed.
 
 
