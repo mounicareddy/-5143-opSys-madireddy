@@ -30,7 +30,7 @@ ans)If we do not use join(),in thread2.py then the main thread terminates first 
 ####4)What happens if you try to Ctrl-C out of the program before it terminates?
 ans)Pressing **Ctrl + c** while a python program is running will cause python to raise a KeyboardInterupt exception.If the except part of the try-except block doesn't specify which exceptions it should catch, it will catch all exceptions including the KeyboardInterupt that you just caused. If you press ctrl+c rapidly then it terminates the execution of a program.
 
-#####%)Read and run Threads4.py. This generates a different and more ridiculous race condition. Write concise explanation of what's happening to cause this bizarre behavior using lines from the code and precise explanation?
+#####5)Read and run Threads4.py. This generates a different and more ridiculous race condition. Write concise explanation of what's happening to cause this bizarre behavior using lines from the code and precise explanation?
 
 ans)In thread4.py the bizarre behavior of both the threads is a lock has been called on a shared resource and none among the threads are calling acquire() method to access the resource .so anyone among the threads can use the shared resource.
 
