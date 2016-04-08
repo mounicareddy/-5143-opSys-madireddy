@@ -40,7 +40,7 @@ Meanwhile,if one thread gets control after the current thread has fetched the va
         print ("Goodbye from thread A")
 
 
-6ans)The problem in question5 can be overcomed here if we use lock.acquire()method for a specific thread then that particular thread access the resource and uses it,after its usage if we call release() so that any other thread can access the same source if needed.
+6ans)The problem in question5 can be overcomed by using synchronism of two threads to ensure they execute in the order specified,  if we use lock.acquire()method for a specific thread then that particular thread access the resource and uses it,after its usage if we call release() so that any other thread can access the same source if needed.
 
 
           global sharedNumber
